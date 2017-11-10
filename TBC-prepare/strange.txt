@@ -1,5 +1,5 @@
-Best : (3,2) make Footman : V=649.449
+Best : (4,3) make Footman : V=326.83
 B
-J
+O
 A
 F
