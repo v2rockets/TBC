@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cTBC", "cTBC.vcproj", "{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78A39FE0-C66E-4062-A8A5-89CAA0B678D2}"
+	ProjectSection(SolutionItems) = preProject
+		cTBC.vsmdi = cTBC.vsmdi
+		try.h = try.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = cTBC.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}.Debug|Win32.Build.0 = Debug|Win32
+		{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}.Release|Win32.ActiveCfg = Release|Win32
+		{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

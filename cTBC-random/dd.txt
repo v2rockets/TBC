@@ -1,0 +1,11 @@
+1>------ 已启动生成: 项目: cTBC, 配置: Release Win32 ------
+1>正在编译...
+1>try.cpp
+1>.\try.cpp(123) : warning C4996: 'strcpy' was declared deprecated
+1>        F:\Visual Studio 2005\VC\include\string.h(73) : see declaration of 'strcpy'
+1>        Message: 'This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online help for details.'
+1>正在链接...
+1>正在嵌入清单...
+1>生成日志保存在“file://d:\cTBC-random\Release\BuildLog.htm”
+1>cTBC - 0 个错误，1 个警告
+========== 生成: 1 已成功, 0 已失败, 0 最新, 0 已跳过 ==========
