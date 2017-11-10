@@ -1,0 +1,49 @@
+<VSPerformanceSession Version="1.00">
+  <Options>
+    <Solution>cTBC.sln</Solution>
+    <CollectionMethod>Instrumentation</CollectionMethod>
+    <AllocationMethod>None</AllocationMethod>
+    <AddReport>true</AddReport>
+    <UniqueReport>Timestamp</UniqueReport>
+    <SamplingMethod>Cycles</SamplingMethod>
+    <CycleCount>10000000</CycleCount>
+    <PageFaultCount>10</PageFaultCount>
+    <SysCallCount>10</SysCallCount>
+    <SamplingCounter PlatformID="00000000" CounterID="0000000000000000" ReloadValue="00000000000f4240" />
+    <RelocateBinaries>false</RelocateBinaries>
+    <HardwareCounters EnableHWCounters="false" />
+    <EtwSettings />
+  </Options>
+  <PreinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PreinstrumentEvent>
+  <PostinstrumentEvent>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PostinstrumentEvent>
+  <Binaries>
+    <ProjBinary>
+      <Path>Debug\cTBC.exe</Path>
+      <ArgumentTimestamp>01/01/0001 00:00:00</ArgumentTimestamp>
+      <Instrument>true</Instrument>
+      <LaunchProject>true</LaunchProject>
+      <LaunchMethod>Executable</LaunchMethod>
+      <ExecutablePath>Debug\cTBC.exe</ExecutablePath>
+      <StartupDirectory />
+      <NetAppHost>IIS</NetAppHost>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}|cTBC.vcproj</ProjRef>
+      <ProjPath>cTBC.vcproj</ProjPath>
+      <ProjName>cTBC</ProjName>
+    </ProjBinary>
+  </Binaries>
+  <Launches>
+    <ProjBinary>
+      <Path>:PB:{66DF3E18-F9D9-4D9B-A38F-105A37F56CCE}|cTBC.vcproj</Path>
+    </ProjBinary>
+  </Launches>
+</VSPerformanceSession>
